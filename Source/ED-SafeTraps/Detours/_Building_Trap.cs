@@ -16,9 +16,13 @@ namespace EnhancedDevelopment.SafeTraps.Detours
         protected virtual float _SpringChance(Pawn p)
         {
             Log.Message("Custom Spring Chance");
-            if (p.Faction.IsPlayer)
+
+            if (p.Faction != null)
             {
-                return 0.0f;
+                if (p.Faction.IsPlayer)
+                {
+                    return 0.0f;
+                }
             }
 
             float num = (!this.KnowsOfTrap(p) ? StatExtension.GetStatValue((Thing)this, StatDefOf.TrapSpringChance, true) : 0.025f) * GenMath.LerpDouble(0.4f, 0.8f, 0.0f, 1f, p.BodySize);
