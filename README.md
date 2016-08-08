@@ -7,3 +7,6 @@ Additional details can be found in About.xml
 
 01.00.00
 *Initial Release
+
+01.00.01
+* Fix for Errors on Animals with no faction.
