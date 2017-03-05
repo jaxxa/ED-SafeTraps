@@ -3,6 +3,10 @@ This is the Readme for the Enhanced Development Mod, ED-ShieldsBasic, for the Ga
 
 Additional details can be found in About.xml
 
+This mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.
+https://github.com/pardeike/Harmony
+https://ludeon.com/forums/index.php?topic=29517.0
+
 #Change Log
 
 01.00.00
