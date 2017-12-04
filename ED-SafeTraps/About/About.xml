@@ -7,9 +7,7 @@
 	<description>Version: 0.18.0.0
 Discussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=37158
 
-This mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.
-https://github.com/pardeike/Harmony
-https://ludeon.com/forums/index.php?topic=29517.0
+This mod used the Harmony Library. This of the Library is included in the download, you do not need to install it separately.
 
 This mods modifies traps so that they will no longer be triggered by colonists.
 	</description>
